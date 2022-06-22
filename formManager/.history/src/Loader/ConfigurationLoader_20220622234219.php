@@ -10,7 +10,6 @@ class ConfigurationLoader extends AbstractService
     const CONFIG_FORMAT = [
         'json' => JsonLoader::class,
         'xml' => XmlLoader::class,
-        'yml' => YamlLoader::class,
     ];
 
     public function load(string $configName): object
