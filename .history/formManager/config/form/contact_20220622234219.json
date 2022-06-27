@@ -5,26 +5,22 @@
       {
         "name": "lastname",
         "label": "Nom",
-        "type": "text",
-        "required": true
+        "type": "text"
       },
       {
         "name": "firstname",
         "label": "Prénom",
-        "required": true,
         "type": "text"
       },
       {
         "name": "email",
         "label": "Adresse e-mail",
-        "required": true,
         "type": "email"
       },
       {
         "name": "subject",
         "label": "Sujet",
         "type": "select",
-        "required": true,
         "values": [
           {
             "text": "Question générale",
@@ -43,14 +39,11 @@
       {
         "name": "message",
         "label": "Message",
-        "type": "textarea",
-        "size": "50",
-        "required": true
+        "type": "textarea"
       },
       {
         "name": "cgu",
         "label": "J'accepte les conditions générales",
-        "required": true,
         "type": "checkbox"
       },
       {

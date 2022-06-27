@@ -24,7 +24,6 @@
         "name": "subject",
         "label": "Sujet",
         "type": "select",
-        "required": true,
         "values": [
           {
             "text": "Question générale",
@@ -45,12 +44,11 @@
         "label": "Message",
         "type": "textarea",
         "size": "50",
-        "required": true
+        "pattern": "[a-zA-Z0-9]+"
       },
       {
         "name": "cgu",
         "label": "J'accepte les conditions générales",
-        "required": true,
         "type": "checkbox"
       },
       {

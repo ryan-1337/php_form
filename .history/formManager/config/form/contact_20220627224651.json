@@ -44,8 +44,7 @@
         "name": "message",
         "label": "Message",
         "type": "textarea",
-        "size": "50",
-        "required": true
+        "size": "50"
       },
       {
         "name": "cgu",
